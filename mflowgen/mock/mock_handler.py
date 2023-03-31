@@ -158,7 +158,7 @@ class MockHandler:
     # Launch mflowgen run on the mock graph
 
     RunHandler().launch( help_   = False,
-                         design  = '.' )
+                         design  = 'construct.py' )
 
   #-----------------------------------------------------------------------
   # launch_help

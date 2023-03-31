@@ -68,7 +68,7 @@ class RunHandler:
     #     construct: path/within/directory/to/construct.py
     #
 
-    if not os.path.exists( os.path.dirname( design ) ):
+    if not os.path.exists( os.path.dirname( os.path.abspath(design) ) ):
       print()
       print( bold( 'Error:' ), 'Directory not found at path',
                                       '"{}"'.format( design ) )
